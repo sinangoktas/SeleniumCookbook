@@ -11,7 +11,7 @@ public class ExecuteJavaScript {
 
     @Test
     public void testJavaScriptCalls() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "utilities/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://google.co.uk");
 
@@ -22,7 +22,7 @@ public class ExecuteJavaScript {
 
             long links = (Long) js.executeScript("var links = document.getElementsByTagName('A'); " +
                     "return links.length");
-            assertEquals(45, links);
+            assertEquals(43, links);
         } finally {
             driver.quit();
         }

@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.Assert.fail;
 
@@ -15,17 +15,17 @@ public class ElementStateTest {
 
     @BeforeClass
     public static void setUp() {
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        driver = new ChromeDriver();
         driver.get("http://cookbook.seleniumacademy.com/Config.html");
     }
 
     @Test
     public void testElementIsEnabled() {
-        WebElement leadheadlamp = driver.findElement(By.name("ledheadlamp"));
-        if (leadheadlamp.isEnabled()) {
-            if (!leadheadlamp.isSelected()) {
-                leadheadlamp.click();
+        WebElement leadHeadLamp = driver.findElement(By.name("ledheadlamp"));
+        if(elementValidators.isElementPresent(leadHeadLamp) && leadHeadLamp.isEnabled()) {
+            if (!leadHeadLamp.isSelected()) {
+                leadHeadLamp.click();
             }
 
         } else {

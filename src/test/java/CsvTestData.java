@@ -7,7 +7,7 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -48,8 +48,8 @@ public class CsvTestData {
 
     @BeforeClass
     public static void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        driver = new ChromeDriver();
         driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
     }
 
@@ -72,12 +72,13 @@ public class CsvTestData {
         WebElement calculateButton = driver.findElement(By.id("Calculate"));
         calculateButton.click();
 
-        WebElement bmiLabel = driver.findElement(By.name("bmi"));
-        assertEquals(bmi, bmiLabel.getAttribute("value"));
-
         WebElement bmiCategoryLabel = driver.findElement(By
                 .name("bmi_category"));
         assertEquals(bmiCategory, bmiCategoryLabel.getAttribute("value"));
+
+        WebElement bmiLabel = driver.findElement(By.name("bmi"));
+        assertEquals(bmi, bmiLabel.getAttribute("value"));
+
 
     }
 

@@ -3,7 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -14,8 +14,8 @@ public class CookiesTest {
 
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://flipkart.com/");
 
@@ -41,14 +41,14 @@ public class CookiesTest {
         }
 
         // useful methods
-        driver.manage().getCookieNamed("cookie2");
-        driver.manage().deleteCookieNamed("cookie1");
-        driver.manage().deleteCookie(c3);
-        driver.manage().deleteAllCookies();
+        //driver.manage().getCookieNamed("cookie2");
+        //driver.manage().deleteCookieNamed("cookie1");
+        //driver.manage().deleteCookie(c3);
+        //driver.manage().deleteAllCookies();
 
 
-     //   assertEquals(null, c3);
-     //   assertEquals("abcdefghi", c2.getValue());
+        //assertEquals(null, c3);
+        //assertEquals("abcdefghi", c2.getValue());
 
     }
 
