@@ -2,7 +2,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,8 +14,8 @@ public class ExplicitWaitTest {
     @Test
     public void testExplicitWait() {
 
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        WebDriver driver = new ChromeDriver();
         // Launch the sample Ajax application
         driver.get("http://cookbook.seleniumacademy.com/AjaxDemo.html");
 
@@ -36,8 +36,8 @@ public class ExplicitWaitTest {
     @Test
     public void testExplicitWaitByTitle() {
 
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
 
         try {
@@ -62,8 +62,8 @@ public class ExplicitWaitTest {
     @Test
     public void testExplicitWaitTitleContains() {
         // Go to the Google Home Page
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
 
         try {
@@ -76,7 +76,7 @@ public class ExplicitWaitTest {
             // This will wait for 10 seconds for timeout before title is updated
             // with search term
             // If title is updated in specified time limit test will move to the
-            // text step instead of waiting for 10 seconds
+            // next step instead of waiting for 10 seconds
             WebDriverWait wait = new WebDriverWait(driver, 10);
             wait.until(ExpectedConditions.titleContains("selenium"));
 

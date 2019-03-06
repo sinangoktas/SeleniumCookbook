@@ -1,12 +1,15 @@
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.junit.*;
 
 import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class GoogleSearchTest {
@@ -15,8 +18,8 @@ public class GoogleSearchTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "utilities/geckodriver");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "utilities/linux/chromedriver");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.google.co.uk");
 
@@ -32,12 +35,9 @@ public class GoogleSearchTest {
         // Google's search is rendered dynamically with JavaScript.
         // Wait for the page to load, timeout after 10 seconds
 
-        new WebDriverWait(driver, 10).until(new ExpectedCondition<Boolean>() {
-            public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase()
-                        .startsWith("selenium testing tools cookbook");
-            }
-        });
+        new WebDriverWait(driver, 10).until((ExpectedCondition<Boolean>)
+                d -> d.getTitle().toLowerCase()
+                .startsWith("selenium testing tools cookbook"));
 
         assertEquals("Selenium testing tools cookbook - Google Search",
                 driver.getTitle());
