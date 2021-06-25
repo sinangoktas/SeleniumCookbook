@@ -26,7 +26,7 @@ public class CsvTestData {
     private String bmiCategory;
 
     @Parameterized.Parameters
-    public static List<String[]> testDta() throws Exception {
+    public static List<String[]> testData() throws Exception {
         return getTestData("./src/test/resources/data.csv");
     }
 

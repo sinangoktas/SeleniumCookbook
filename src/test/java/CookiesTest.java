@@ -40,7 +40,7 @@ public class CookiesTest {
             System.out.println(cookie);
         }
 
-        // useful methods
+        //useful methods
         //driver.manage().getCookieNamed("cookie2");
         //driver.manage().deleteCookieNamed("cookie1");
         //driver.manage().deleteCookie(c3);

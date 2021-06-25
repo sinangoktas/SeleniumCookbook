@@ -1,59 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e02ccc6-0344-44c3-aeb9-ef7e7bc936d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumCookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumCookbook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExplicitWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FluentWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FluentWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FramesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FramesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImplicitWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImplicitWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JSClickExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSClickExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NavigationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AlertTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AlertTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BeautyBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BeautyBayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckboxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckboxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContextMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContextMenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CookiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CookiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CsvTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CsvTestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DoubleClickTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DoubleClickTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CookiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CookiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CsvTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CsvTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DoubleClickTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DoubleClickTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DoubleClickTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DoubleClickTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DragDropTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DragDropTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ElementStateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ElementStateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ElementValidators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ElementValidators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EventFiringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EventFiringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExecuteJavaScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExecuteJavaScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExplicitWaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FluentWaitTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FluentWaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FluentWaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FramesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FramesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GenericUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GenericUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GoogleSearchTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GoogleSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GoogleSearchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImplicitWaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ImplicitWaitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JSClickExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JSClickExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NavigationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NavigationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageScroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageScroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RadioButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RadioButtonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RemoteWebDriverScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RemoteWebDriverScreenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RowSelectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RowSelectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScreenShotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScreenShotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SelectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SelectTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleDDT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleDDT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TableExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNGDDT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNGDDT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WindowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WindowTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +20,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -81,19 +43,6 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NavigationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NavigationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -161,32 +110,24 @@
       </list>
     </option>
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="EventFiringTest.testEventFiringWebDriver" />
-    </enabled-run-configurations>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1366" />
     <option name="height" value="743" />
   </component>
+  <component name="ProjectId" id="1qFY9ZrDApG05HCBLCpBpOdeEm2" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -326,6 +267,10 @@
       <pane id="AndroidView" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -346,165 +291,104 @@
       <recent name="$PROJECT_DIR$/utilities/linux" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.NavigationTest.testNavigation">
+  <component name="RunManager" selected="JUnit.AlertTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="GoogleSearchTest.testLinkText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
-      <option name="METHOD_NAME" value="testLinkText" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="MAIN_CLASS_NAME" value="AlertTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ImplicitWaitTest.testWithOutWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest.testSimpleAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ImplicitWaitTest" />
-      <option name="METHOD_NAME" value="testWithOutWait" />
+      <option name="MAIN_CLASS_NAME" value="AlertTest" />
+      <option name="METHOD_NAME" value="testSimpleAlert" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ImplicitWaitTest.testWithWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextMenuTest.testContextMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ImplicitWaitTest" />
-      <option name="METHOD_NAME" value="testWithWait" />
+      <option name="MAIN_CLASS_NAME" value="ContextMenuTest" />
+      <option name="METHOD_NAME" value="testContextMenu" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="JSClickExample.testClickJS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CsvTestData.testBMICalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSClickExample" />
-      <option name="METHOD_NAME" value="testClickJS" />
+      <option name="MAIN_CLASS_NAME" value="CsvTestData" />
+      <option name="METHOD_NAME" value="testBMICalculator" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="NavigationTest.testNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavigationTest" />
       <option name="METHOD_NAME" value="testNavigation" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GoogleSearchTest.testLinkText" />
-      <item itemvalue="JUnit.ImplicitWaitTest.testWithOutWait" />
-      <item itemvalue="JUnit.ImplicitWaitTest.testWithWait" />
-      <item itemvalue="JUnit.JSClickExample.testClickJS" />
+      <item itemvalue="JUnit.AlertTest" />
+      <item itemvalue="JUnit.AlertTest.testSimpleAlert" />
+      <item itemvalue="JUnit.ContextMenuTest.testContextMenu" />
+      <item itemvalue="JUnit.CsvTestData.testBMICalculator" />
       <item itemvalue="JUnit.NavigationTest.testNavigation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlertTest" />
+        <item itemvalue="JUnit.CsvTestData.testBMICalculator" />
+        <item itemvalue="JUnit.ContextMenuTest.testContextMenu" />
+        <item itemvalue="JUnit.AlertTest.testSimpleAlert" />
         <item itemvalue="JUnit.NavigationTest.testNavigation" />
-        <item itemvalue="JUnit.JSClickExample.testClickJS" />
-        <item itemvalue="JUnit.ImplicitWaitTest.testWithOutWait" />
-        <item itemvalue="JUnit.ImplicitWaitTest.testWithWait" />
-        <item itemvalue="JUnit.GoogleSearchTest.testLinkText" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -679,9 +563,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed global radio test" />
     <option name="LAST_COMMIT_MESSAGE" value="removed global radio test" />
@@ -692,17 +573,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/AlertTest.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FramesTest.java</url>
           <line>84</line>
-          <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">

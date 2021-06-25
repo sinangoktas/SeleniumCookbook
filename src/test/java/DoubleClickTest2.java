@@ -19,15 +19,15 @@ public class DoubleClickTest2 {
         driver.get("http://cookbook.seleniumacademy.com/DoubleClickDemo.html");
 
         try {
-            WebElement message = driver.findElement(By.id("message"));
+            WebElement messageElement = driver.findElement(By.id("message"));
             // Verify colour is blue
-            assertEquals("rgba(0, 0, 255, 1)", message.getCssValue("background-color"));
+            assertEquals("rgba(0, 0, 255, 1)", messageElement.getCssValue("background-color"));
 
             Actions builder = new Actions(driver);
-            builder.doubleClick(message).perform();
+            builder.doubleClick(messageElement).perform();
 
             // Verify colour is yellow
-            assertEquals("rgba(255, 255, 0, 1)", message.getCssValue("background-color"));
+            assertEquals("rgba(255, 255, 0, 1)", messageElement.getCssValue("background-color"));
 
 
         }finally {
