@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e02ccc6-0344-44c3-aeb9-ef7e7bc936d3" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumCookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumCookbook.iml" afterDir="false" />
@@ -12,6 +13,14 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/CsvTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CsvTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DoubleClickTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DoubleClickTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DoubleClickTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DoubleClickTest2.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverWithJava8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumCookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumCookbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelectTest.java" afterDir="false" />
+>>>>>>> eb55374c7a53535f83bfbddec5b13a6c17cc667e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +67,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/NavigationTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,7 +139,11 @@
     <option name="width" value="1366" />
     <option name="height" value="743" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1qFY9ZrDApG05HCBLCpBpOdeEm2" />
+=======
+  <component name="ProjectId" id="1uOO3wwSlIb99RAhL21fozMYP7G" />
+>>>>>>> eb55374c7a53535f83bfbddec5b13a6c17cc667e
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -291,7 +307,11 @@
       <recent name="$PROJECT_DIR$/utilities/linux" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AlertTest">
+=======
+  <component name="RunManager" selected="JUnit.NavigationTest.testNavigation">
+>>>>>>> eb55374c7a53535f83bfbddec5b13a6c17cc667e
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -304,8 +324,14 @@
     <configuration name="AlertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCookbook" />
       <option name="PACKAGE_NAME" value="" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="AlertTest" />
       <option name="TEST_OBJECT" value="class" />
+=======
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchTest" />
+      <option name="METHOD_NAME" value="testLinkText" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> eb55374c7a53535f83bfbddec5b13a6c17cc667e
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -563,6 +589,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> eb55374c7a53535f83bfbddec5b13a6c17cc667e
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed global radio test" />
     <option name="LAST_COMMIT_MESSAGE" value="removed global radio test" />
